@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600i&display=swap');
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+         url('../fonts/Gotham-Bold.woff') format('woff'),
+         url('../fonts/Gotham-Bold.ttf') format('truetype'),
+         url('../fonts/Gotham-Bold.svg') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-BoldItalic';
+    src: url('../fonts/Gotham-BoldItalic.eot');
+    src: url('../fonts/Gotham-BoldItalic.woff2') format('woff2'),
+         url('../fonts/Gotham-BoldItalic.woff') format('woff'),
+         url('../fonts/Gotham-BoldItalic.ttf') format('truetype'),
+         url('../fonts/Gotham-BoldItalic.svg') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('../fonts/Gotham-Book.eot');
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+         url('../fonts/Gotham-Book.woff') format('woff'),
+         url('../fonts/Gotham-Book.ttf') format('truetype'),
+         url('../fonts/Gotham-Book.svg') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/Gotham-Medium.eot');
+    src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+         url('../fonts/Gotham-Medium.woff') format('woff'),
+         url('../fonts/Gotham-Medium.ttf') format('truetype'),
+         url('../fonts/Gotham-Medium.svg') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+$title-color: rgba(44, 64, 88, 255);
+$subtitle-color:  rgba(75, 85, 98, 255);
+$icon-color: #7e5aff;
+$blue: #55b7ff;
+$purple: #7e5aff;
+
+$title-font: 'Gotham Bold', sans-serif;
+$subtitle-font: 'Gotham Book', sans-serif;
+$medium-font: 'Gotham Medium', sans-serif;
+$text-font: 'Open Sans', sans-serif;

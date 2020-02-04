@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Monticello2</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#about-us" class="logo"><img src="img/logo.svg" alt="Logo" class="logo__img"></a>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#about-us" class="menu__link">About us</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#projects" class="menu__link">projects</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="news" class="menu__link">news</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#contact" class="menu__link">contact</a>
+                    </li>
+                </ul>
+                <div class="f-a">
+                    <a href="https://www.facebook.com/" class="social" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/" class="social" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" class="social" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-us" id="about-us">
+                <div class="slider slider__about-us slick-vertical"  data-slick='{"autoplay" : true, "infinite" : true, "arrows" : false, "dots" : true}'>  <!--"vertical" : true -->
+                    <div class="slide slide__about-us" style="background-image: linear-gradient(to bottom left, rgba(126,90,255, .95), rgba(36,204,250, .95)), url(../img/first-screen1.png);">
+                        <div class="about__us-content">
+                            <h1 class="about-us__title">Simple & mordern1</h1>
+                            <p class="about-us__subtitle">We make the world's beautiful every day</p>
+                        </div>
+                    </div>
+                    <div class="slide slide__about-us" style="background-image: linear-gradient(to bottom left, rgba(126,90,255, .95), rgba(36,204,250, .95)), url(../img/gallery2.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                        <div class="about__us-content">
+                            <h1 class="about-us__title">Simple & mordern2</h1>
+                            <p class="about-us__subtitle">We make the world's beautiful every day</p>
+                        </div>
+
+                    </div>
+                    <div class="slide slide__about-us" style="background-image: linear-gradient(to bottom left, rgba(126,90,255, .95), rgba(36,204,250, .95)), url(../img/gallery3.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                        <div class="about__us-content">
+                            <h1 class="about-us__title">Simple & mordern3</h1>
+                            <p class="about-us__subtitle">We make the world's beautiful every day</p>
+                        </div>
+
+                    </div>
+                    <div class="slide slide__about-us" style="background-image: linear-gradient(to bottom left, rgba(126,90,255, .95), rgba(36,204,250, .95)), url(../img/gallery4.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                        <div class="about__us-content">
+                            <h1 class="about-us__title">Simple & mordern4</h1>
+                            <p class="about-us__subtitle">We make the world's beautiful every day</p>
+                        </div>
+
+                    </div>
+                    <div class="slide slide__about-us" style="background-image: linear-gradient(to bottom left, rgba(126,90,255, .95), rgba(36,204,250, .95)), url(../img/latest-news2.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                        <div class="about__us-content">
+                            <h1 class="about-us__title">Simple & mordern5</h1>
+                            <p class="about-us__subtitle">We make the world's beautiful every day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow"><a href="#projects" class="arrow"><i class="fas fa-angle-down fas--down"></i></a></div>
+        </section>
+
+        <section class="trade" id="projects">
+            <h2 class="trade__title">what we do</h2>
+            <div class="project__img"><div class="trade__bg"></div><img class="trade__img" src="img/what we do (2).png" alt=""></div>
+            <div class="project project__decription contain-column-reverse">
+                <p class="project__world">One World</p>
+                <h2 class="project__center">Trade Center</h2>
+                <p class="project__description">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+                <a href="#" class="btn">more details</a>
+                <a href="#" class="project__location"><i class="fas fa-map-marker-alt"></i>New York City, United States - 1776 feet</a>
+            </div>
+        </section>
+        <section class="commerce" id="project">
+            <div class="project__img"><div class="commerce__bg"></div><img class="commerce__img" src="img/commerce centre.png" alt=""></div>
+            <div class="project project__decription contain-column">
+                <p class="project__world">International</p>
+                <h2 class="project__center">Commerce Centre</h2>
+                <p class="project__description">Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+                <a href="#" class="btn">more details</a>
+                <a href="#" class="project__location"><i class="fas fa-map-marker-alt"></i>Hong Kong - 1588 Feet</a>
+            </div>
+        </section>
+
+        <section class="news-section" id="news" style="background: linear-gradient(to bottom left, rgba(36,204,250, .95), rgba(60, 127, 212, .95)), url(img/latest-news-bg.png);">
+        <h2 class="news__title">latest news</h2>
+        <div class="slider slider__news" data-slick='{"autoplay" : true, "infinite" : true, "slidesToShow" : 3, "slidesToScroll" : 1, "arrows" : true, "dots" : true, "dotsClass" : "news-dots"}'>
+            <div class="slide slide__news news">
+                    <a class="slide__news" href="#" >
+                        <img src="img/latest-news1 (2).png" alt="" class="news__img">
+                        <h4 class="news__topic">See The Unmatched Beauty Of The Great.</h4>
+                        <p class="news__content">Free directories: directories are perfect for customers that are... searching for</p>
+                    </a>
+                    <a class="autor" href="#"> 
+                        <img src="img/latest-news1-1.png" alt="" class="autor__img">
+                        <p class="autor__name">Isaac Dunn</p>
+                    </a>
+                    <a class="autor__data" href="#">09 Feb 2017</a>
+            </div>
+            <div class="slide slide__news news">
+                    <a class="slide__news" href="#" >
+                        <img src="img/latest-news1 (2).png" alt="" class="news__img">
+                        <h4 class="news__topic">See The Unmatched Beauty Of The Great.</h4>
+                        <p class="news__content">Free directories: directories are perfect for customers that are... searching for</p>
+                    </a>
+                    <a class="autor" href="#">
+                        <img src="img/latest-news1-1.png" alt="" class="autor__img">
+                        <p class="autor__name">Isaac Dunn</p>
+                    </a>
+                    <a class="autor__data" href="#">09 Feb 2017</a>
+            </div>
+            <div class="slide slide__news news">
+                    <a class="slide__news" href="#">
+                        <img src="img/latest-news2.png" alt="" class="news__img">
+                        <h4 class="news__topic">Effective Advertising Pointers.</h4>
+                        <p class="news__content">Having a home based business is a wonderful asset to your life...</p>
+                    </a>
+                    <a class="autor" href="#">
+                        <img src="img/latest-news2-2.png" alt="" class="autor__img">
+                        <p class="autor__name">Dominic Freeman</p>
+                    </a>
+                    <a class="autor__data" href="#">24 Apr 2017</a>
+            </div>
+            <div class="slide slide__news news">
+                    <a class="slide__news" href="#">
+                        <img src="img/latest-news3.png" alt="" class="news__img">
+                        <h4 class="news__topic">Hypnotize Yourself Into The Ghost.</h4>
+                        <p class="news__content">There are many things that are important to catalog design...</p>
+                    </a>
+                    <a class="autor" href="#">
+                        <img src="img/latest-news3-3.png" alt="" class="autor__img">
+                        <p class="autor__name">Alice Ward</p>
+                    </a>
+                    <a class="autor__data" href="#">30 Dec 2017</a>
+            </div>
+            <div class="slide slide__news news">
+                    <a class="slide__news" href="#">
+                        <img src="img/latest-news3.png" alt="" class="news__img">
+                        <h4 class="news__topic">Hypnotize Yourself Into The Ghost.</h4>
+                        <p class="news__content">There are many things that are important to catalog design...</p>
+                    </a>
+                    <a class="autor" href="#">
+                        <img src="img/latest-news3-3.png" alt="" class="autor__img">
+                        <p class="autor__name">Alice Ward</p>
+                    </a>
+                    <a class="autor__data" href="#">30 Dec 2017</a>
+            </div>
+        </div>
+        </section>
+
+        <section class="gallety-section container">
+            <h2 class="gallery__title">gallery</h2>
+            <div class="grid galery">
+                <div class="grid__item a"><img src="img/gallery1.png" alt=""></div>
+                <div class="grid__item b"><img src="img/gallery2.png" alt=""></div>
+                <div class="grid__item c"><img src="img/gallery3.png" alt=""></div>
+                <div class="grid__item d"><img src="img/gallery4.png" alt=""></div>
+                <div class="grid__item e"><img src="img/gallery5.png" alt=""></div>
+            </div>
+            <a href="#" class="btn-gallery">see more</a>
+        </section>
+
+        <section class="map-section">
+            <div id="map"></div>
+            <form class="form" action="" method="POST">
+                <h2 class="form__title">get in touch</h2>
+                    <div class="form-flex">
+                    <div class="form__info info">
+                        <a class="info__text" href="address:"><i class="fas fa-map-marker-alt info__i"></i>91 Nolan Extensions Suite 670</a>
+                        <a class="info__text" href="tel:+001 356-868-2454"><i class="fas fa-phone-alt info__i"></i>+001 356-868-2454</a>
+                        <a class="info__text" href="mailto:gahuy93@gmail.com"><i class="fas fa-inbox info__i"></i>gahuy93@gmail.com</a>
+                        <p class="info__text" ><i class="far fa-clock info__i"></i>From 07:05AM to 19:30PM</p>
+                    </div>
+                    <div class="form__input">
+                        <input class="input" type="text" placeholder="Name & Surname">
+                        <input class="input" type="email" placeholder="Email">
+                        <button class="btn__form">submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <footer class="footer" style="background-image: linear-gradient(to bottom left, rgba(126,90,255, .95), rgba(36,204,250, .95)), url(../img/gallery1.png); background-repeat: no-repeat; background-size: cover; background-position: right">
+            <div class="footer-container">
+                <div class="footer-flex">
+                    <a href="#" class="logo"><img src="img/logo.svg" alt="Logo" class="logo__img"></a>
+                    <div class="f-a">
+                        <a href="https://www.facebook.com/" class="social" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" class="social" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" class="social" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <span class="copyright">Copyrights © 2017 Monticello</span>
+                <span class="made-with">Made with <i class="fas fa-heart"></i> by Ga Huy</span>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="js/jquery.min.js"></script> 
+    <script src="js/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/ddcb2e1583.js" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMjuMmepYzChB-Y07kpdlAMGRSRRTLC-M&callback=initMap" async defer></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
