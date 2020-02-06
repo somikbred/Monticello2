@@ -473,7 +473,7 @@ section {
   margin: 30px 0; }
 
 .project__location {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gotham-BoldItalic', sans-serif;
   font-weight: italic;
   font-size: 1.8rem;
   margin-top: 50px;
@@ -677,8 +677,8 @@ section {
   background-color: #fff;
   width: 60%;
   position: absolute;
-  top: 60%;
-  left: 22.5%; }
+  bottom: 70%;
+  left: 20%; }
   .form__title {
     padding-top: 4%;
     text-transform: uppercase;
@@ -712,7 +712,7 @@ section {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin: 50px; }
+  margin: 0 55px 50px; }
   .info__i {
     color: #7e5aff;
     font-size: 1.8rem;
@@ -722,7 +722,7 @@ section {
     text-decoration: none;
     font-family: "Gotham Book", sans-serif;
     color: #2c4058;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     margin: 0; }
 
 .form__input {
@@ -732,17 +732,51 @@ section {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  line-height: 2; }
+
+.form-input {
+  margin-top: -3px;
+  padding-right: 10px;
+  width: 160%;
+  font-family: "Gotham Book", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  border: none;
+  border-bottom: 1px solid #a5aab0;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  -webkit-transition: all .4s ease-in;
+  -o-transition: all .4s ease-in;
+  transition: all .4s ease-in; }
+  .form-input:hover, .form-input:focus, .form-input:active {
+    border: none;
+    border-bottom: 1px solid #4b5562;
+    color: #4b5562; }
+  .form-input::-webkit-input-placeholder {
+    color: #a5aab0; }
+  .form-input::-moz-placeholder {
+    color: #a5aab0; }
+  .form-input:-ms-input-placeholder {
+    color: #a5aab0; }
+  .form-input::-ms-input-placeholder {
+    color: #a5aab0; }
+  .form-input::placeholder {
+    color: #a5aab0; }
 
 .btn__form {
-  padding: 25px 65px;
+  width: 60%;
+  margin: 10px 0 0 100%;
+  padding: 15px 0 30px;
   font-family: "Gotham Book", sans-serif;
   text-transform: uppercase;
   color: #2c4058;
   font-size: 1.4rem;
+  text-align: center;
   background-color: transparent;
-  border: 1px solid #2c4058;
   border-radius: 0%;
+  border: 1px solid #2c4058;
+  text-decoration: none;
   -webkit-transition: all .4s ease-in;
   -o-transition: all .4s ease-in;
   transition: all .4s ease-in; }
@@ -754,7 +788,8 @@ section {
     border: 1px solid #2c4058; }
 
 .footer {
-  height: 525px; }
+  height: 525px;
+  position: relative; }
 
 .footer-flex {
   display: -webkit-box;
